@@ -23,6 +23,8 @@ Jeweler::Tasks.new do |gem|
   gem.authors = ["Samu Voutilainen"]
   # dependencies defined in Gemfile
   gem.add_dependency "mysql2", ">=0"
+  gem.add_dependency "capybara", ">=0"
+  gem.add_dependency "capybara-mechanize", ">=0"
 end
 Jeweler::RubygemsDotOrgTasks.new
 
