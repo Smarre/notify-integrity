@@ -1,0 +1,4 @@
+
+class NotifyIntegrity
+    #nya
+end
