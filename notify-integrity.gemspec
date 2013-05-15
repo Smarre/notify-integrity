@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/notify-integrity.rb",
+    "notify-integrity.gemspec",
     "notify-integrity.kdev4",
     "test/helper.rb",
     "test/test_notify-integrity.rb"
