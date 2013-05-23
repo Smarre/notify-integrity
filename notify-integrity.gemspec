@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Samu Voutilainen"]
-  s.date = "2013-05-15"
+  s.date = "2013-05-23"
   s.description = "This gem provides means to notify Integrity for example to request new build."
   s.email = "smar@smar.fi"
   s.extra_rdoc_files = [
