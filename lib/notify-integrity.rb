@@ -67,8 +67,7 @@ class NotifyIntegrity
 
         while true
 
-            base = GerritHooks::Base.new
-            page = base.request_page uri
+            page = request_page uri
 
             element = page.parser.at_xpath "//div[@class='building']"
             break if element.to_s == ""
